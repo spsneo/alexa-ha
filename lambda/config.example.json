@@ -1,0 +1,18 @@
+{
+  "ha_url": "https://YOUR-NABU-CASA-ID.ui.nabu.casa",
+  "ha_token": "YOUR-LONG-LIVED-ACCESS-TOKEN",
+  "skill_id": "amzn1.ask.skill.YOUR-SKILL-ID",
+
+  "mode": "pipeline",
+  "pipeline": "",
+  "agent_id": "conversation.jev",
+
+  "devices": {
+    "_example_amzn1.ask.device.XXXX": "home-assistant-device-id-of-the-same-room"
+  },
+
+  "timeout_seconds": 6.5,
+  "progressive_response_after_seconds": 3,
+  "log_level": "INFO",
+  "log_utterances": false
+}

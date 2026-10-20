@@ -1,0 +1,8 @@
+# Your real settings (Home Assistant URL, token, skill ID). Never commit these.
+lambda/config.json
+.env
+
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/

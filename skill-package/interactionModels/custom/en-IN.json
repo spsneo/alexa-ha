@@ -1,0 +1,244 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "home assistant",
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      },
+      "intents": [
+        {
+          "name": "QueryIntent",
+          "slots": [
+            {
+              "name": "query",
+              "type": "HomeAssistantQuery"
+            }
+          ],
+          "samples": [
+            "{query}"
+          ]
+        },
+        {
+          "name": "SetupInfoIntent",
+          "slots": [],
+          "samples": [
+            "setup details",
+            "show setup details",
+            "send setup details",
+            "skill setup details",
+            "device setup details"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "name": "HomeAssistantQuery",
+          "values": [
+            {
+              "name": {
+                "value": "turn on the living room lights"
+              }
+            },
+            {
+              "name": {
+                "value": "turn off the bedroom fan"
+              }
+            },
+            {
+              "name": {
+                "value": "what's the temperature outside"
+              }
+            },
+            {
+              "name": {
+                "value": "is the front door locked"
+              }
+            },
+            {
+              "name": {
+                "value": "set the AC to twenty four degrees"
+              }
+            },
+            {
+              "name": {
+                "value": "switch off all the lights"
+              }
+            },
+            {
+              "name": {
+                "value": "what's the weather today"
+              }
+            },
+            {
+              "name": {
+                "value": "dim the kitchen lights to fifty percent"
+              }
+            },
+            {
+              "name": {
+                "value": "how much power is the house using"
+              }
+            },
+            {
+              "name": {
+                "value": "start the robot vacuum"
+              }
+            },
+            {
+              "name": {
+                "value": "close the curtains in the bedroom"
+              }
+            },
+            {
+              "name": {
+                "value": "is the geyser on"
+              }
+            },
+            {
+              "name": {
+                "value": "turn on the geyser"
+              }
+            },
+            {
+              "name": {
+                "value": "what time is it"
+              }
+            },
+            {
+              "name": {
+                "value": "remind me to water the plants"
+              }
+            },
+            {
+              "name": {
+                "value": "play some music in the hall"
+              }
+            },
+            {
+              "name": {
+                "value": "who is at the door"
+              }
+            },
+            {
+              "name": {
+                "value": "turn the fan speed to three"
+              }
+            },
+            {
+              "name": {
+                "value": "is anyone home"
+              }
+            },
+            {
+              "name": {
+                "value": "open the garage"
+              }
+            },
+            {
+              "name": {
+                "value": "what is the air quality"
+              }
+            },
+            {
+              "name": {
+                "value": "batti band karo"
+              }
+            },
+            {
+              "name": {
+                "value": "pankha chalu karo"
+              }
+            },
+            {
+              "name": {
+                "value": "aaj ka mausam kaisa hai"
+              }
+            },
+            {
+              "name": {
+                "value": "good night"
+              }
+            },
+            {
+              "name": {
+                "value": "good morning"
+              }
+            },
+            {
+              "name": {
+                "value": "make it brighter"
+              }
+            },
+            {
+              "name": {
+                "value": "yes"
+              }
+            },
+            {
+              "name": {
+                "value": "no"
+              }
+            },
+            {
+              "name": {
+                "value": "the one in the study"
+              }
+            },
+            {
+              "name": {
+                "value": "tell me a joke"
+              }
+            },
+            {
+              "name": {
+                "value": "how much water is in the tank"
+              }
+            },
+            {
+              "name": {
+                "value": "lock the main door"
+              }
+            },
+            {
+              "name": {
+                "value": "what's on my calendar tomorrow"
+              }
+            },
+            {
+              "name": {
+                "value": "set a timer for ten minutes"
+              }
+            },
+            {
+              "name": {
+                "value": "switch on the inverter"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "manifest": {
+    "manifestVersion": "1.0",
+    "apis": {
+      "custom": {}
+    },
+    "permissions": [
+      {
+        "name": "alexa::person_id:read"
+      }
+    ],
+    "publishingInformation": {
+      "isAvailableWorldwide": false,
+      "distributionCountries": [
+        "IN"
+      ],
+      "category": "SMART_HOME",
+      "testingInstructions": "Private skill for the owner's home. Not for publication.",
+      "locales": {
+        "en-IN": {
+          "name": "alexa-ha",
+          "summary": "Talk to your Home Assistant Assist pipeline from any Alexa device.",
+          "description": "Sends what you say to your own Home Assistant Assist pipeline and speaks its answer.",
+          "examplePhrases": [
+            "Alexa, open home assistant",
+            "Alexa, ask home assistant to turn on the living room lights",
+            "Alexa, ask home assistant what's the temperature outside"
+          ],
+          "keywords": [
+            "home assistant"
+          ]
+        }
+      }
+    },
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    }
+  }
+}
